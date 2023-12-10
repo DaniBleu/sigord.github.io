@@ -54,6 +54,10 @@
     color: #4267B2;
     text-decoration: none;
   }
+  .ref{
+    text-decoration: none;
+    color: white;
+  }
   
   .links .separator {
     margin: 0 5px;
